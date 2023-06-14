@@ -14,6 +14,10 @@ public class Mentor extends CsvBean {
         this.lastName = lastName;
     }
 
+    public Mentor() {
+
+    }
+
     public String getFirstName() {
         return firstName;
     }
